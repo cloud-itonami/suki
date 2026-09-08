@@ -1,7 +1,7 @@
 (ns suki.methods.test-charter-gates
   "suki — structural charter-gate conformance tests. Substrate-native Clojure (ADR-2606160842); 1:1 port of pruned test_charter_gates.py."
   (:require [clojure.test :refer [deftest is run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.edn :as edn]))
 
 (def ^:private here (.getParentFile (java.io.File. ^String *file*)))
@@ -44,7 +44,7 @@
 (deftest test-g9-bootloader-and-canbus-are-open
   (let [doc (load-lex "electricalEcuAttestation.edn")
         boots (known doc "name")]
-    (is (and (seq boots) (every? #(str/includes? (str/lower-case %) "open") boots))
+    (is (and (seq boots) (every? #(str/includes? (str/lower %) "open") boots))
         (str "G9: bootloader options must all be open, got " boots))
     (is (= (known doc "canBusProtocol") #{"ISOBUS-ISO-11783-open"}))))
 
