@@ -1,4 +1,4 @@
-# com-etzhayyim-suki — CLAUDE.md
+# com-etzhayyim-suki — AGENTS.md
 
 ## Identity
 
@@ -218,5 +218,5 @@ R0 = declaration only.
 - `https://github.com/etzhayyim/com-etzhayyim-tsutae/blob/main/README.md` — Sibling (R2R dual-layer: tsutae G3 hardware + suki G10 firmware)
 - `https://github.com/etzhayyim/com-etzhayyim-kanayama/blob/main/README.md` — Sibling (Al + steel + Cu supplier + EoL)
 - `https://github.com/etzhayyim/com-etzhayyim-igata/blob/main/README.md` — Sibling (HPDC engine block / transmission housing R3)
-- `/CLAUDE.md` — Status table row 57
+- `/AGENTS.md` — Status table row 57
 - `/CHARTER-RIDER.md` — §2(b) IP + §2(c) surveillance + §2(e) repair + §2(g) sustainability
