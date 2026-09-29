@@ -138,4 +138,4 @@ Terminal `vehicleManufactureRecord` emitted by `suki_vehicle_attestation_binder`
 - `https://github.com/etzhayyim/root/blob/b622df7928524b0363fd0e3b161ebed719ef206f/20-actors/silicon/README.md` — Sibling (iwakura SoC open ECU upstream R2+)
 - `https://github.com/etzhayyim/com-etzhayyim-tsutae/blob/main/README.md` — Sibling (R2R constitutional first precedent; tsutae G3 hardware + suki G10 firmware = dual-layer R2R)
 - `/CHARTER-RIDER.md` — §2(b) IP + §2(c) surveillance + §2(e) repair + §2(g) sustainability
-- `/CLAUDE.md` — Status table row 57
+- `/AGENTS.md` — Status table row 57
